@@ -1,3 +1,2 @@
 # TehRevengeOfHeimdall
-
-Hiren you're Stupid
+# Tem20OGRobotCode
