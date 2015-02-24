@@ -110,13 +110,13 @@ public class DriverControls {
 
 		//For da LOLZ
 		if(Motors.driver.getRawButton(11)){
-		Motors.operator.setRumble(RumbleType.kRightRumble , 1);
-		Motors.operator.setRumble(RumbleType.kLeftRumble , 1);
+		Motors.driver.setRumble(RumbleType.kRightRumble , 1);
+		Motors.driver.setRumble(RumbleType.kLeftRumble , 1);
 		}
 		
 		if(Motors.driver.getRawButton(12)){
-			Motors.operator.setRumble(RumbleType.kRightRumble , 0);
-			Motors.operator.setRumble(RumbleType.kLeftRumble , 0);
+			Motors.driver.setRumble(RumbleType.kRightRumble , 0);
+			Motors.driver.setRumble(RumbleType.kLeftRumble , 0);
 			}
 		//End 
 		double values[] = new double[4];// FL BL FR BR
